@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.body--container{
+    height:85vh;
+    width:100vw;
+}
+.input1{
+    width:41.5vw;
+    height:6vh;
+    margin-left:6vw;
+    margin-right:2vw;
+}
+.input2{
+    width:41.5vw;
+    height:6vh;
+}
+.button{
+    color: white;
+    margin-top:2vh;
+    display:flex;
+    height:7vh;
+    width:85vw;
+    justify-content:center;
+    align-items:center;
+    margin-left:6vw;
+    border: 1px solid #D5D4D8;
+    background:linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    cursor: pointer;
+}
+.memeimage{
+    height:55vh;
+    width:50vw;
+    margin-left:21vw;
+    margin-top:2vh;
+    position: relative;
+}
+.meme{
+    height:55vh;
+    width:50vw;
+}
+.meme-top-text{
+        position: absolute;
+        width: 80%;
+        text-align: center;
+        left: 48%;
+        transform: translateX(-50%);
+        margin: 15px 0;
+        padding: 0 5px;
+        font-family: impact, sans-serif;
+        font-size: 2em;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 1px;
+        text-shadow:
+            2px 2px 0 #000,
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            0 2px 0 #000,
+            2px 0 0 #000,
+            0 -2px 0 #000,
+            -2px 0 0 #000,
+            2px 2px 5px #000;
+            top:38vh;
+    } 
+.meme-bottom-text{
+        position: absolute;
+        width: 80%;
+        text-align: center;
+        left: 48%;
+        transform: translateX(-50%);
+        margin: 15px 0;
+        padding: 0 5px;
+        font-family: impact, sans-serif;
+        font-size: 2em;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 1px;
+        text-shadow:
+            2px 2px 0 #000,
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            0 2px 0 #000,
+            2px 0 0 #000,
+            0 -2px 0 #000,
+            -2px 0 0 #000,
+            2px 2px 5px #000;
+            top:82vh;
+    } 
+
+
+
